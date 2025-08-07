@@ -29,7 +29,9 @@ Graduated Winter 2023 (3.7 GPA)
 2. SIEM Querying in Splunk: 
 -Used SPL to identify IOCs (Indicators of Compromise) such as failed login attempts 
 and impossible travel; developed familiarity with search syntax and detection.
-![Splunk query 1](assets/img/Splunk query 1.png)
+
+[Splunk query 1](assets/img/Splunk query 1.png)
+
 
 4. Security Alert Triage: 
 -Analyzed a mock security alert ticket using a standard playbook; documented IOCs 
