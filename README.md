@@ -17,6 +17,7 @@ Graduated Winter 2023 (3.7 GPA)
 -CompTIA Security+, issuer: CompTIA, Completed July, 2025
 
 -Splunk Search Expert 101, issuer: Coursera, Completed July, 2025
+
 -Google Cybersecurity Professional Certificate, issuer: Coursera, Completed Fall 2024
 
 ### Cybersecurity Projects 
