@@ -22,7 +22,7 @@ Graduated Winter 2023 (3.7 GPA)
 -Google Cybersecurity Professional Certificate, issuer: Coursera, Completed Fall 2024
 
 # Cybersecurity Projects 
-1. Malware Detection & Incident Response: 
+####1. Malware Detection & Incident Response: 
 -Investigated a suspicious file using its SHA-256 hash and VirusTotal OSINT 
 (Open-Source Intelligence); documented findings in an incident handler’s journal. Shown below in 1a.
 
@@ -44,7 +44,7 @@ Summary/Additional Notes: The file is well recognized as a trojan horse type mal
 
 The fact that the file being studied creates cookies, modifies Java Script files, autonomously performs insecure HTTP requests, and displays Collection tactics point to the file possibly being designed to steal sensitive information from users of websites. 
 
-2. SIEM Querying in Splunk: 
+####2. SIEM Querying in Splunk: 
 -Used SPL to identify IOCs (Indicators of Compromise) such as failed login attempts 
 and impossible travel; developed familiarity with search syntax and detection. Searches shown below (2a-c).
 
@@ -60,7 +60,7 @@ To search for failed logins of the root account on both the "mailsv" and "ww1" h
 ![SPL query 3](assets/img/Splunk%20query%203%20OR%20statement.png)
 
 
-3. Security Alert Triage: 
+####3. Security Alert Triage: 
 -Analyzed a mock security alert ticket using a standard playbook; documented IOCs 
 and proposed escalation steps; developed investigation and triage skills. Shown below in 3a.
 
