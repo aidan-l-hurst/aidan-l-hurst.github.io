@@ -35,14 +35,14 @@ Graduated Winter 2023 (3.7 GPA)
 
 **Tool(s) used:** IDS, SHA256, Virus Total
 
-**Report:** Today, an email containing a password protected attachment was received by an employee (1:11pm) who then downloaded it (1:13pm). When the employee entered the password, as directed in the email,, the file executed a malicious payload that created multiple unauthorized executable files (1:15pm). The IDS detected this event and sent an alert to the SOC team (1:20pm). An analyst isolated the suspicious file and created an SHA256 hash (shown below) that was then entered into the Virus Total SEARCH option. The report from VirusTotal indicates that the file associated with this hash is almost definitely malware, as 63/75 security vendors flag it as such. The details section indicates the popular threat label (title) for this file as “Flagpro” and is a type of trojan horse malware used by the threat actor BlackTech. Tags in the report bulletin include “checks user input.” A report from a CAPE sandbox reveals multiple indicators of compromise (IOCs): 
+**Report:** Today, an email containing a password protected attachment was received by an employee (1:11pm) who then downloaded it (1:13pm). When the employee entered the password, as directed in the email,, the file executed a malicious payload that created multiple unauthorized executable files (1:15pm). The IDS detected this event and sent an alert to the SOC team (1:20pm). An analyst isolated the suspicious file and created a SHA256 hash (shown below) that was then entered into the Virus Total SEARCH option. The report from VirusTotal indicates that the file associated with this hash is almost definitely malware, as 63/75 security vendors flag it as such. The details section indicates the popular threat label (title) for this file as “Flagpro” and is a type of trojan horse malware used by the threat actor BlackTech. Tags in the report bulletin include “checks user input.” A report from a CAPE sandbox reveals multiple indicators of compromise (IOCs): 
 1. The executable seems to create additional files containing cookies, possibly for the purpose of collecting sensitive information. 
 2. Dropped files (files written to by executable) include JavaScript, possible XSS.
 3. Creates a Hidden/System file(s) 
 
 SHA256 Hash: 54e6ea47eb04634d3e87fd7787e2136ccfbcc80ade34f246a12cf93bab527f6b 
 
-**Summary/Additional Notes:** The file is well recognized as a trojan horse type malware by the security community. The fact that the file being studied creates cookies, modifies Java Script files, autonomously performs insecure HTTP requests, and displays Collection tactics point to the file possibly being designed to steal sensitive information from users of websites. 
+**Summary/Additional Notes:** The file is well recognized as a trojan horse type malware by the security community. The fact that the file being studied creates cookies, modifies Java Script files, autonomously performs insecure HTTP requests, and exhibits collection tactics, point to the file possibly being designed to steal sensitive information from users of websites. 
 
 ### Project 2, SIEM Querying in Splunk: 
 -Used SPL to identify IOCs (Indicators of Compromise) such as failed login attempts 
