@@ -22,11 +22,11 @@ Graduated Winter 2023 (3.7 GPA)
 -Google Cybersecurity Professional Certificate, issuer: Coursera, Completed Fall 2024
 
 # Cybersecurity Projects 
-###1. Malware Detection & Incident Response: 
+###Malware Detection & Incident Response: 
 -Investigated a suspicious file using its SHA-256 hash and VirusTotal OSINT 
-(Open-Source Intelligence); documented findings in an incident handler’s journal. Shown below in 1a.
+(Open-Source Intelligence); documented findings in an incident handler’s journal. Shown below in a.
 
-1a. 
+a. 
 Date: 07/26/2024
 
 Description: This entry is a documentation of an event involving a suspicious file that was downloaded by an employee through an email attachment. 
@@ -40,31 +40,29 @@ Report: Today, an email containing a password protected attachment was received 
 
 SHA256 Hash: 54e6ea47eb04634d3e87fd7787e2136ccfbcc80ade34f246a12cf93bab527f6b 
 
-Summary/Additional Notes: The file is well recognized as a trojan horse type malware by the security community.
+Summary/Additional Notes: The file is well recognized as a trojan horse type malware by the security community. The fact that the file being studied creates cookies, modifies Java Script files, autonomously performs insecure HTTP requests, and displays Collection tactics point to the file possibly being designed to steal sensitive information from users of websites. 
 
-The fact that the file being studied creates cookies, modifies Java Script files, autonomously performs insecure HTTP requests, and displays Collection tactics point to the file possibly being designed to steal sensitive information from users of websites. 
-
-###2. SIEM Querying in Splunk: 
+### SIEM Querying in Splunk: 
 -Used SPL to identify IOCs (Indicators of Compromise) such as failed login attempts 
-and impossible travel; developed familiarity with search syntax and detection. Searches shown below (2a-c).
+and impossible travel; developed familiarity with search syntax and detection. Searches shown below in 1-3.
 
-2a. Query to access the index, where all events are ingested, stored, and aggregated 
+1. Query to access the index, where all events are ingested, stored, and aggregated 
 ![SPL query 1](assets/img/Splunk%20query%201.png)
 
-2b. Searched for failed login attempts to the root user account on the mailsv host. Used
+2. Searched for failed login attempts to the root user account on the mailsv host. Used
 the wildcard fail* to bring up all events containing "fail", "failed", "failure". 
 ![SPL query 1](assets/img/Splunk%20query%202.png)
 
-2c. Practiced the use of booleans such as OR. This query returns events where the host is "mailsv" or where the host is "ww1" and contains fail* and root.
+3. Practiced the use of booleans such as OR. This query returns events where the host is "mailsv" or where the host is "ww1" and contains fail* and root.
 To search for failed logins of the root account on both the "mailsv" and "ww1" hosts: index=main (host=mailsv OR host=ww1) fail* root. 
 ![SPL query 3](assets/img/Splunk%20query%203%20OR%20statement.png)
 
 
-###3. Security Alert Triage: 
+### Security Alert Triage: 
 -Analyzed a mock security alert ticket using a standard playbook; documented IOCs 
-and proposed escalation steps; developed investigation and triage skills. Shown below in 3a.
+and proposed escalation steps; developed investigation and triage skills. Shown below in a.
 
-3a.
+a.
 Date: 07/28/2024
 
 Description: This entry is a documentation of a ticket (id: A-2703) involving a suspicious file believed to be a phishing attempt.
