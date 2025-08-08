@@ -24,9 +24,8 @@ Graduated Winter 2023 (3.7 GPA)
 # Cybersecurity Projects 
 ### Malware Detection & Incident Response: 
 -Investigated a suspicious file using its SHA-256 hash and VirusTotal OSINT 
-(Open-Source Intelligence); documented findings in an incident handler’s journal. Shown below in a.
+(Open-Source Intelligence); documented findings in an incident handler’s journal. Shown below.
 
-a. 
 Date: 07/26/2024
 
 Description: This entry is a documentation of an event involving a suspicious file that was downloaded by an employee through an email attachment. 
@@ -60,9 +59,8 @@ To search for failed logins of the root account on both the "mailsv" and "ww1" h
 
 ### Security Alert Triage: 
 -Analyzed a mock security alert ticket using a standard playbook; documented IOCs 
-and proposed escalation steps; developed investigation and triage skills. Shown below in a.
+and proposed escalation steps; developed investigation and triage skills. Shown below.
 
-a.
 Date: 07/28/2024
 
 Description: This entry is a documentation of a ticket (id: A-2703) involving a suspicious file believed to be a phishing attempt.
