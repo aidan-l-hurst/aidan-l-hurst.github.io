@@ -1,6 +1,4 @@
 # aidan-l-hurst.github.io
-### Email: aidan.l.hurst@gmail.com
-### [LinkedIn](https://www.linkedin.com/in/aidan-hurst-445453303 )
 # Portfolio
 ## About
 I’m an aspiring Information Security Analyst with a strong foundation in IT and 
