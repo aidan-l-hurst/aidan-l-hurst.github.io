@@ -1,4 +1,4 @@
-# aidan-l-hurst.github.io
+aidan-l-hurst.github.io
 # Portfolio
 ## About
 I’m an aspiring Information Security Analyst with a strong foundation in IT and 
