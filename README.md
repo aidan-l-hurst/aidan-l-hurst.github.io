@@ -21,7 +21,7 @@ Graduated Winter 2023 (3.7 GPA)
 
 -Google Cybersecurity Professional Certificate, issuer: Coursera, Completed Fall 2024
 
-### Cybersecurity Projects 
+# Cybersecurity Projects 
 1. Malware Detection & Incident Response: 
 -Investigated a suspicious file using its SHA-256 hash and VirusTotal OSINT 
 (Open-Source Intelligence); documented findings in an incident handler’s journal.
