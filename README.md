@@ -2,8 +2,7 @@ aidan-l-hurst.github.io
 
 ### <span class="blue-text">Email: aidan.l.hurst@gmail.com </span>
 
-### <a href="[https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/aidan-hurst-445453303 )" style="color: blue;">LinkedIn</a>
-
+### <a href="https://www.linkedin.com/in/aidan-hurst-445453303" style="color: blue;">LinkedIn</a>
 # Portfolio
 ## About
 I’m an aspiring Information Security Analyst with a strong foundation in IT and 
