@@ -39,7 +39,7 @@ the wildcard fail* to bring up all events containing "fail", "failed", "failure"
 
 2c. Practiced the use of booleans such as OR. This query returns events where the host is "mailsv" or where the host is "ww1" and contains fail* and root.
 To search for failed logins of the root account on both the "mailsv" and "ww1" hosts: index=main (host=mailsv OR host=ww1) fail* root. 
-![SPL query 3](assets/img/Splunk%20query%203.png)
+![SPL query 3](assets/img/Splunk%20query%203%20OR%20statement.png)
 
 4. Security Alert Triage: 
 -Analyzed a mock security alert ticket using a standard playbook; documented IOCs 
