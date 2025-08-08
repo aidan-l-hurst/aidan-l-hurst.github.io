@@ -17,7 +17,7 @@ my skills in threat detection, incident response, and security operations.
 **Associate of Science in Electrical & Computer Engineering**, Bellevue College, 
 Graduated Winter 2023 (3.7 GPA)
 
-### Certificaitons 
+### Certifications 
 **-CompTIA Security+, issuer: CompTIA, Completed July, 2025**
 
 **-Splunk Search Expert 101, issuer: Coursera, Completed July, 2025**
@@ -35,7 +35,7 @@ Graduated Winter 2023 (3.7 GPA)
 
 **Tool(s) used:** IDS, SHA256, Virus Total
 
-**Report:** Today, an email containing a password protected attachment was received by an employee (1:11pm) who then downloaded it (1:13pm). When the employee entered the password, as directed in the email,, the file executed a malicious payload that created multiple unauthorized executable files (1:15pm). The IDS detected this event and sent an alert to the SOC team (1:20pm). An analyst isolated the suspicious file and created an SHA256 hash (shown below) that was then entered into the Virus Total SEARCH option. The report from VirusTotal indicates that the file associated with this hash is almost definitely malware, as 63/75 security vendors flag it as such. The details section indicates the popular threat label (title) for this file as “Flagpro” and is a type of trojan horse malware used by the threat actor BlackTech. Tags in the report bulliten include “checks user input.” A report from a CAPE sandbox reveals multiple indicators of compromise (IoCs): 
+**Report:** Today, an email containing a password protected attachment was received by an employee (1:11pm) who then downloaded it (1:13pm). When the employee entered the password, as directed in the email,, the file executed a malicious payload that created multiple unauthorized executable files (1:15pm). The IDS detected this event and sent an alert to the SOC team (1:20pm). An analyst isolated the suspicious file and created an SHA256 hash (shown below) that was then entered into the Virus Total SEARCH option. The report from VirusTotal indicates that the file associated with this hash is almost definitely malware, as 63/75 security vendors flag it as such. The details section indicates the popular threat label (title) for this file as “Flagpro” and is a type of trojan horse malware used by the threat actor BlackTech. Tags in the report bulletin include “checks user input.” A report from a CAPE sandbox reveals multiple indicators of compromise (IOCs): 
 1. The executable seems to create additional files containing cookies, possibly for the purpose of collecting sensitive information. 
 2. Dropped files (files written to by executable) include JavaScript, possible XSS.
 3. Creates a Hidden/System file(s) 
