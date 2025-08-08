@@ -28,7 +28,7 @@ Graduated Winter 2023 (3.7 GPA)
 
 2. SIEM Querying in Splunk: 
 -Used SPL to identify IOCs (Indicators of Compromise) such as failed login attempts 
-and impossible travel; developed familiarity with search syntax and detection. Searches shown below.
+and impossible travel; developed familiarity with search syntax and detection. Searches shown below (2a-c).
 
 2a. Query to access the index, where all events are ingested, stored, and aggregated 
 ![SPL query 1](assets/img/Splunk%20query%201.png)
@@ -41,7 +41,7 @@ the wildcard fail* to bring up all events containing "fail", "failed", "failure"
 To search for failed logins of the root account on both the "mailsv" and "ww1" hosts: index=main (host=mailsv OR host=ww1) fail* root. 
 ![SPL query 3](assets/img/Splunk%20query%203%20OR%20statement.png)
 
-4. Security Alert Triage: 
+3. Security Alert Triage: 
 -Analyzed a mock security alert ticket using a standard playbook; documented IOCs 
 and proposed escalation steps; developed investigation and triage skills.
 
