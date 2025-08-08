@@ -55,8 +55,8 @@ and impossible travel; developed familiarity with search syntax and detection. S
 the wildcard fail* to bring up all events containing "fail", "failed", "failure". 
 ![SPL query 1](assets/img/Splunk%20query%202.png)
 
-3. Practiced the use of booleans such as OR. This query returns events where the host is "mailsv" or where the host is "ww1" and contains fail* and root.
-To search for failed logins of the root account on both the "mailsv" and "ww1" hosts, use the following query: __index=main (host=mailsv OR host=ww1) fail* root__ 
+3. Practiced the use of booleans such as OR. This query returns events where the host is "mailsv" or where the host is "www1" and contains fail* and root.
+To search for failed logins of the root account on both the "mailsv" and "www1" hosts, use the following query: __index=main (host=mailsv OR host=www1) fail* root__ 
 ![SPL query 3](assets/img/Splunk%20query%203%20OR%20statement.png)
 
 
