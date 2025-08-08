@@ -28,7 +28,7 @@ Graduated Winter 2023 (3.7 GPA)
 
 2. SIEM Querying in Splunk: 
 -Used SPL to identify IOCs (Indicators of Compromise) such as failed login attempts 
-and impossible travel; developed familiarity with search syntax and detection.
+and impossible travel; developed familiarity with search syntax and detection. Searches shown below.
 
 2a. Query to access the index, where all events are ingested, stored, and aggregated 
 ![SPL query 1](assets/img/Splunk%20query%201.png)
