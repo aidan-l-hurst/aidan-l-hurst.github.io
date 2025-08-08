@@ -25,7 +25,7 @@ Graduated Winter 2023 (3.7 GPA)
 **-Google Cybersecurity Professional Certificate, issuer: Coursera, Completed Fall 2024**
 
 # Cybersecurity Projects 
-### Malware Detection & Incident Response: 
+### Project 1, Malware Detection & Incident Response: 
 -Investigated a suspicious file using its SHA-256 hash and VirusTotal OSINT 
 (Open-Source Intelligence); documented findings in an incident handler’s journal. Shown below.
 
@@ -44,7 +44,7 @@ SHA256 Hash: 54e6ea47eb04634d3e87fd7787e2136ccfbcc80ade34f246a12cf93bab527f6b
 
 **Summary/Additional Notes:** The file is well recognized as a trojan horse type malware by the security community. The fact that the file being studied creates cookies, modifies Java Script files, autonomously performs insecure HTTP requests, and displays Collection tactics point to the file possibly being designed to steal sensitive information from users of websites. 
 
-### SIEM Querying in Splunk: 
+### Project 2, SIEM Querying in Splunk: 
 -Used SPL to identify IOCs (Indicators of Compromise) such as failed login attempts 
 and impossible travel; developed familiarity with search syntax and detection. Searches shown below in 1-3.
 
@@ -60,7 +60,7 @@ To search for failed logins of the root account on both the "mailsv" and "ww1" h
 ![SPL query 3](assets/img/Splunk%20query%203%20OR%20statement.png)
 
 
-### Security Alert Triage: 
+### Project 3, Security Alert Triage: 
 -Analyzed a mock security alert ticket using a standard playbook; documented IOCs 
 and proposed escalation steps; developed investigation and triage skills. Shown below.
 
@@ -73,3 +73,5 @@ and proposed escalation steps; developed investigation and triage skills. Shown 
 **Report:** The security team is investigating a medium level ticket alert (id: A-2703). The alert states that on 07/20/2022 at 9:30am, an employee user received an email containing an attachment. The attachment is a file verified to be malicious in nature and was possibly opened by the user. This verification was accomplished by searching the file's respective SHA256 hash on VirusTotal. The ticket shows a number of Indicators of Compromise(IoCs). The email contains a misspelling of the word engineer in the subject line and a mismatch between the sender's name and email address. The sender's email address is akin to that of an organization, suggesting the possibility that they are attempting to impersonate a credible source. Additionally, the sender claims that the attachment is a resume, but the attached file is a executable(.exe) as opposed to a word document or PDF.
 
 **Summary/Additional Notes:** Based on the fact that the attachment is verified to be malicious along with the other IoCs outlined above, this alert/ticket is credible, and should be escalated. 
+
+More projects to be added...
