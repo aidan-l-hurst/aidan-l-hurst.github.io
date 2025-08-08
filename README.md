@@ -1,6 +1,7 @@
 aidan-l-hurst.github.io
 
 ### <span class="blue-text">Email: aidan.l.hurst@gmail.com </span>
+### <b style="color: blue;">Email: aidan.l.hurst@gmail.com</b>
 
 ### <a href="https://www.linkedin.com/in/aidan-hurst-445453303" style="color: blue;">LinkedIn</a>
 # Portfolio
