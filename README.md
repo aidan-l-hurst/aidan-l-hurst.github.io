@@ -74,7 +74,7 @@ and proposed escalation steps; developed investigation and triage skills. Shown 
 **Summary/Additional Notes:** Based on the fact that the attachment is verified to be malicious along with the other IoCs outlined above, this alert/ticket is credible, and should be escalated. 
 
 ### Project 4, Risk Assessment and Analysis: 
--Given a fictitious company’s server, its purpose, specifications, and interfaces of the system, I conducted a risk assessment using NIST SP 800-30 as a guide. I evaluated interfaces, specifications, identified vulnerabilities, then delivered a report recommending mitigations.
+-Conducted a risk assessment of a fictitious server using NIST SP 800-30 as a guide. Evaluated interfaces, specifications, and identified vulnerabilities, then delivered a report recommending mitigations.
 
 **Risk Assessment:**
 Because of the specifications of  the database server, it offers a valuable data storage and retrieval system, with the ability to transport data securely over an SSL connection. This server will likely store sensitive data on customers and possibly employees. Failure to address vulnerabilities and exposures could result in an attack that damages the company's reputation and ability to conduct business. If an attack were to deny access to the data stored server, this would make finding potential customers more difficult, likely slowing growth of the business. If an attacker were to steal data on the server, this could harm customers and in effect our company's reputation.
