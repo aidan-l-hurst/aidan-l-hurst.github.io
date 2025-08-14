@@ -75,14 +75,17 @@ and proposed escalation steps; developed investigation and triage skills. Shown 
 
 ### Project 4, Risk Assessment and Analysis: 
 -Given a fictitious company’s server, its purpose, specifications, and interfaces of the system, I conducted a risk assessment using NIST SP 800-30 as a guide. I evaluated interfaces, specifications, identified vulnerabilities, then delivered a report recommending mitigations.
+
 **Risk Assessment:**
 Because of the specifications of  the database server, it offers a valuable data storage and retrieval system, with the ability to transport data securely over an SSL connection. This server will likely store sensitive data on customers and possibly employees. Failure to address vulnerabilities and exposures could result in an attack that damages the company's reputation and ability to conduct business. If an attack were to deny access to the data stored server, this would make finding potential customers more difficult, likely slowing growth of the business. If an attacker were to steal data on the server, this could harm customers and in effect our company's reputation.
+
 **Risk Analysis:** 
 The server’s public accessibility leaves it vulnerable to unauthorized access by human threats, including: competitors and hackers. Since the company conducts business globally, this could potentially attract the attention of nation-states who may use our server to obtain sensitive information on business partners. The likelihood of this hinges largely on who we do business with and the nature of that business. The severity here is high because, if compromised, we could lose current customers and find them challenging to replace due to reputational damage.
 
 Our remote employees introduce the risk of working on an insecure network (e.g., WPA, WEP) and a threat actor performing an on-path attack. The likelihood of this is based on the hardware used and the risks associated with remote work. The severity here is moderate, predicated on the fact that a single employee is not necessarily accessing a large quantity of sensitive information in a single session. 
 
 Business partners could develop an interest in influencing decisions of our organization in order to put themselves at an advantage. They may access information on this server, that they likely know exists, and monitor our company activities. The risk of this requires a degree of speculation and hinges on who we do business alongside and our relationship with respective organizations. The possible impact is severe.
+
 **Remediation Recommendations:** 
 1. To mitigate unauthorized access to the server, implement multi-factor authentication (MFA) for all employees.
 2. To reduce the risk of an on-path attack over unsecured networks, require all remote employees to use a VPN when accessing company resources, including the server.
